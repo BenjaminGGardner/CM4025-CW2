@@ -2,7 +2,7 @@
   "name": "cm4025-cw2",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
+	"mongodb": "^3.6.4"
   }
 }
