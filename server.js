@@ -8,7 +8,7 @@ const DBURI = process.env.DBURI || "mongodb://127.0.0.1:27017"
 
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://TotallyNotAdmin:123IsNotASecurePassword@cluster0.yto9g.mongodb.net/mydb?retryWrites=true&w=majority";
+const uri = DBURI;
 
 
 app.route('/login')
