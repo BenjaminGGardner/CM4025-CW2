@@ -4,13 +4,16 @@ var app = express();
 const PORT = process.env.PORT || 8080;
 const DBURI = process.env.DBURI || "mongodb://127.0.0.1:27017"
 
+
+
+
 const MongoClient = require('mongodb').MongoClient;
-const uri = DBURI;
+const uri = "mongodb+srv://TotallyNotAdmin:123IsNotASecurePassword@cluster0.yto9g.mongodb.net/mydb?retryWrites=true&w=majority";
 
 
 app.route('/login')
   // show the form (GET http://localhost:PORT/login)
-    .get(function(req, res) {       var output = 'getting the login! ';
+    .get(function(req, res) {var output = 'getting the login! ';
       var input1 = req.query['input1'];
       var input2 = req.query['input2'];
       if (typeof input1 != 'undefined' && typeof input2 != 'undefined') {
