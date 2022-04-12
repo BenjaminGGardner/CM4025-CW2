@@ -9,6 +9,8 @@ import {Link} from 'react-router-dom'
 import { useState, useEffect } from "react";
 import CommentForm from "./Comments/CommentForm";
 import Comment from "./Comments/Comment";
+import css from "../index.css";
+
 import {
   getComments as getCommentsApi,
   createComment as createCommentApi,
