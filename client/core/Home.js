@@ -39,12 +39,10 @@ export default function Home(){
           <Typography variant="h6" className={classes.title}>
             Home Page
           </Typography>
-          <Link to="/users"> Users </Link>
-          <CardMedia className={classes.media} image={myImg} title="My Image"/>
-          <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo: Chompster</Typography>
+          <CardMedia className={classes.media} image={myImg} title="Spiny lumpsucker fish"/>
           <CardContent>
-            <Typography variant="body1" component="p">
-              Welcome to Lab 6 home page.
+            <Typography variant="h5" component="p">
+              Welcome to the Love for the Uglies home page!
             </Typography>
           </CardContent>
         </Card>
