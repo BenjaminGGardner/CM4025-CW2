@@ -4,12 +4,10 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
-import myImg from './../assets/images/myimage.png'
 import {Link} from 'react-router-dom'
 import { useState, useEffect } from "react";
 import CommentForm from "./Comments/CommentForm";
 import Comment from "./Comments/Comment";
-import css from "../index.css";
 
 import {
   getComments as getCommentsApi,
